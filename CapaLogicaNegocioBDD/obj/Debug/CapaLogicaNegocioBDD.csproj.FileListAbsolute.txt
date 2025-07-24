@@ -1,0 +1,6 @@
+C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\bin\Debug\CapaLogicaNegocioBDD.dll
+C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\bin\Debug\CapaLogicaNegocioBDD.pdb
+C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\obj\Debug\CapaLogicaNegocioBDD.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\obj\Debug\CapaLogicaNegocioBDD.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\obj\Debug\CapaLogicaNegocioBDD.dll
+C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\obj\Debug\CapaLogicaNegocioBDD.pdb

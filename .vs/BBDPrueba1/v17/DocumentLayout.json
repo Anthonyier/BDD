@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|c:\\users\\pc\\source\\repos\\bbdprueba1\\bbdprueba1\\stepdefinitions\\comprobarformatoemailstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|solutionrelative:bbdprueba1\\stepdefinitions\\comprobarformatoemailstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D048C680-167E-4E66-8E5E-990FE2357108}|FormularioFactura\\FormularioFactura.csproj|c:\\users\\pc\\source\\repos\\bbdprueba1\\formulariofactura\\webformcliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D048C680-167E-4E66-8E5E-990FE2357108}|FormularioFactura\\FormularioFactura.csproj|solutionrelative:formulariofactura\\webformcliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|c:\\users\\pc\\source\\repos\\bbdprueba1\\bbdprueba1\\stepdefinitions\\comprobarqueciseaintegerstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|solutionrelative:bbdprueba1\\stepdefinitions\\comprobarqueciseaintegerstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|c:\\users\\pc\\source\\repos\\bbdprueba1\\bbdprueba1\\stepdefinitions\\verificardatosobligatoriosstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|solutionrelative:bbdprueba1\\stepdefinitions\\verificardatosobligatoriosstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{095123CB-EB77-44AD-B165-414B1F7F4776}|CapaLogicaNegocioBDD\\CapaLogicaNegocioBDD.csproj|c:\\users\\pc\\source\\repos\\bbdprueba1\\capalogicanegociobdd\\negociocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{095123CB-EB77-44AD-B165-414B1F7F4776}|CapaLogicaNegocioBDD\\CapaLogicaNegocioBDD.csproj|solutionrelative:capalogicanegociobdd\\negociocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|c:\\users\\pc\\source\\repos\\bbdprueba1\\bbdprueba1\\features\\verificardatosobligatorios.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|solutionrelative:bbdprueba1\\features\\verificardatosobligatorios.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D048C680-167E-4E66-8E5E-990FE2357108}|FormularioFactura\\FormularioFactura.csproj|c:\\users\\pc\\source\\repos\\bbdprueba1\\formulariofactura\\webformcliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D048C680-167E-4E66-8E5E-990FE2357108}|FormularioFactura\\FormularioFactura.csproj|solutionrelative:formulariofactura\\webformcliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|c:\\users\\pc\\source\\repos\\bbdprueba1\\bbdprueba1\\stepdefinitions\\calculatorstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|solutionrelative:bbdprueba1\\stepdefinitions\\calculatorstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D048C680-167E-4E66-8E5E-990FE2357108}|FormularioFactura\\FormularioFactura.csproj|C:\\Users\\pc\\source\\repos\\BBDPrueba1\\formulariofactura\\webformfactura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D048C680-167E-4E66-8E5E-990FE2357108}|FormularioFactura\\FormularioFactura.csproj|solutionrelative:formulariofactura\\webformfactura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|c:\\users\\pc\\source\\repos\\bbdprueba1\\bbdprueba1\\features\\calculator.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AAC69ABB-0753-4437-AEB3-B90C67C5C7DB}|BBDPrueba1\\BBDPrueba1.csproj|solutionrelative:bbdprueba1\\features\\calculator.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D048C680-167E-4E66-8E5E-990FE2357108}|FormularioFactura\\FormularioFactura.csproj|C:\\Users\\pc\\source\\repos\\BBDPrueba1\\formulariofactura\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D048C680-167E-4E66-8E5E-990FE2357108}|FormularioFactura\\FormularioFactura.csproj|solutionrelative:formulariofactura\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComprobarFormatoEmailStepDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\StepDefinitions\\ComprobarFormatoEmailStepDefinitions.cs",
+              "RelativeDocumentMoniker": "BBDPrueba1\\StepDefinitions\\ComprobarFormatoEmailStepDefinitions.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\StepDefinitions\\ComprobarFormatoEmailStepDefinitions.cs",
+              "RelativeToolTip": "BBDPrueba1\\StepDefinitions\\ComprobarFormatoEmailStepDefinitions.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwB8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:57:10.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComprobarQueCiSeaIntegerStepDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\StepDefinitions\\ComprobarQueCiSeaIntegerStepDefinitions.cs",
+              "RelativeDocumentMoniker": "BBDPrueba1\\StepDefinitions\\ComprobarQueCiSeaIntegerStepDefinitions.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\StepDefinitions\\ComprobarQueCiSeaIntegerStepDefinitions.cs",
+              "RelativeToolTip": "BBDPrueba1\\StepDefinitions\\ComprobarQueCiSeaIntegerStepDefinitions.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:41:32.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NegocioCliente.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\CapaLogicaNegocioBDD\\NegocioCliente.cs",
+              "RelativeDocumentMoniker": "CapaLogicaNegocioBDD\\NegocioCliente.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\CapaLogicaNegocioBDD\\NegocioCliente.cs",
+              "RelativeToolTip": "CapaLogicaNegocioBDD\\NegocioCliente.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T01:44:19.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VerificarDatosObligatoriosStepDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\StepDefinitions\\VerificarDatosObligatoriosStepDefinitions.cs",
+              "RelativeDocumentMoniker": "BBDPrueba1\\StepDefinitions\\VerificarDatosObligatoriosStepDefinitions.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\StepDefinitions\\VerificarDatosObligatoriosStepDefinitions.cs",
+              "RelativeToolTip": "BBDPrueba1\\StepDefinitions\\VerificarDatosObligatoriosStepDefinitions.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T00:55:29.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebFormCliente.aspx",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\FormularioFactura\\WebFormCliente.aspx",
+              "RelativeDocumentMoniker": "FormularioFactura\\WebFormCliente.aspx",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\FormularioFactura\\WebFormCliente.aspx",
+              "RelativeToolTip": "FormularioFactura\\WebFormCliente.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T00:33:45.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "verificarDatosObligatorios.feature",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\Features\\verificarDatosObligatorios.feature",
+              "RelativeDocumentMoniker": "BBDPrueba1\\Features\\verificarDatosObligatorios.feature",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\Features\\verificarDatosObligatorios.feature",
+              "RelativeToolTip": "BBDPrueba1\\Features\\verificarDatosObligatorios.feature",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQWSURBVDhPdVRLb1tFFP7mPnztaydObOcJcWolhDRpVURQAyWNWgItsGlZ0YoFEgseKxCCFWv4AWzYIxAgQVRVlSo1En1IoDRtSUEpRFWUd9I4DztOff269r18c\u002B0oSRGf9dkzZ2Y\u002BnznnzBH4P3zRGMARXxtHcbKZdMg1uFjCVCmJr9IFzg/Cdd2Dgm\u002BQnylBTISH0Kydhakco0WKGXKZKFDwEfLOJObLV/BN5h42nXxtzYNa\u002BwVeNBScNRPoMs5BNd6FppwUEM8qQmlz4UYBEVGFGhNCtLo6vW5UutGglNDvS8GvZLFc9mT2BF8zWzFgjiCjvwdXDAc1M9JX36MnQp0ia\u002BfQZrbgWEOf8KuGb7OYikARXYjrIXTrj7DjJHG/VJQyVcGYIvC8McwNFzkbUaCorf5mXIifx\u002BmWE1jMrWAwOoC34\u002BcYJuBu\u002Bk95SiEPkRmslZcZglVYrmcEPgqbGPSf4ui04F/XayHYbhl\u002BNYBOM46j4T6ciL2AOtrLtO\u002BDTp7BkH8IH4c9g\u002BZ9G6IPmkj4FX/ombqE\u002BLT3Q6zk1rBgLeO3jdtYyK9gPrcIh\u002B7NZhe8I8RuQp/msJszxhlbVQ\u002BBLrKpgopquzbXBNoDLUjbGUykJykyjzup\u002BxjfuoclXv8JBJj5ZhYVhatxkIiQpu2UsVFMYWLzDyQLG8iWLY9WOYd0aRu2U0LMiKA7lEDMFwWzXj0NBMmYHOwKepCeyW8Zv216Z9kWr\u002BlwEyPLT6PRgJebjuNi51s42TQIkzGuQep44dsVXCctUwugP9yDT3rex6stwzgUiiOshRHW6xE1GuEXfnQE2vFm6wj3fIAIbTXI4k7LQdXnVwIKIuoAX87hfKUokoV13FwfR4f5FE41vQSfZuB49DnPq8cMwZXVa5hgTKcy0yg5JabdHUfaGcWveavq4c38Iubsv1kSy\u002BvFTVxekQcmIT3ua\u002BiBrugIqkGWz2Hv6tfXf8fY2g0vtsQyZu0ZaqTkpOrhbLmIuOZHlx7lM0sUnILuU3TRHmhFzsnhFr3N2DsIaUHMsXymMv\u002BAe1jisijdG7hTuopfrIdSaq85vBOqxxnzdejic1r7afGxLoWqKEJ6ItPiU31MUoXZtinmdZ8k7/wlruV/xvfZDSmz95YXyzYsZw1HjQc8LYu0oeJWZCnVEud6YrTJiRTLkF/jp\u002BxVjLHyi/JR7heUhu1KgcHdRK8xx5UZWmXm5PNqkltqkE3gIUrudxQbxe3CHFIs0Br2BCUsiiYZT00sMUnzvOUOGlVZG0dImYElchxblcu4lR/FWG4GKdfrMrs4KCghl/8quWxHWTbZAnp9IVpkV5nmta/zBj/ibukSvn28yr3e/ffjYMd\u002BEhfqwjgf7OConZyGqCRxKVfED5a3/F8A/wKUXZtBUQWfiQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-07-24T00:41:12.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebFormCliente.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\FormularioFactura\\WebFormCliente.aspx.cs",
+              "RelativeDocumentMoniker": "FormularioFactura\\WebFormCliente.aspx.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\FormularioFactura\\WebFormCliente.aspx.cs",
+              "RelativeToolTip": "FormularioFactura\\WebFormCliente.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T02:04:39.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\FormularioFactura\\Default.aspx",
+              "RelativeDocumentMoniker": "FormularioFactura\\Default.aspx",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\FormularioFactura\\Default.aspx",
+              "RelativeToolTip": "FormularioFactura\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-23T15:01:33.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebFormFactura.aspx",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\FormularioFactura\\WebFormFactura.aspx",
+              "RelativeDocumentMoniker": "FormularioFactura\\WebFormFactura.aspx",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\FormularioFactura\\WebFormFactura.aspx",
+              "RelativeToolTip": "FormularioFactura\\WebFormFactura.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-23T14:57:38.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CalculatorStepDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\StepDefinitions\\CalculatorStepDefinitions.cs",
+              "RelativeDocumentMoniker": "BBDPrueba1\\StepDefinitions\\CalculatorStepDefinitions.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\StepDefinitions\\CalculatorStepDefinitions.cs",
+              "RelativeToolTip": "BBDPrueba1\\StepDefinitions\\CalculatorStepDefinitions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T13:12:07.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Calculator.feature",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\Features\\Calculator.feature",
+              "RelativeDocumentMoniker": "BBDPrueba1\\Features\\Calculator.feature",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\BBDPrueba1\\Features\\Calculator.feature",
+              "RelativeToolTip": "BBDPrueba1\\Features\\Calculator.feature",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQWSURBVDhPdVRLb1tFFP7mPnztaydObOcJcWolhDRpVURQAyWNWgItsGlZ0YoFEgseKxCCFWv4AWzYIxAgQVRVlSo1En1IoDRtSUEpRFWUd9I4DztOff269r18c\u002B0oSRGf9dkzZ2Y\u002BnznnzBH4P3zRGMARXxtHcbKZdMg1uFjCVCmJr9IFzg/Cdd2Dgm\u002BQnylBTISH0Kydhakco0WKGXKZKFDwEfLOJObLV/BN5h42nXxtzYNa\u002BwVeNBScNRPoMs5BNd6FppwUEM8qQmlz4UYBEVGFGhNCtLo6vW5UutGglNDvS8GvZLFc9mT2BF8zWzFgjiCjvwdXDAc1M9JX36MnQp0ia\u002BfQZrbgWEOf8KuGb7OYikARXYjrIXTrj7DjJHG/VJQyVcGYIvC8McwNFzkbUaCorf5mXIifx\u002BmWE1jMrWAwOoC34\u002BcYJuBu\u002Bk95SiEPkRmslZcZglVYrmcEPgqbGPSf4ui04F/XayHYbhl\u002BNYBOM46j4T6ciL2AOtrLtO\u002BDTp7BkH8IH4c9g\u002BZ9G6IPmkj4FX/ombqE\u002BLT3Q6zk1rBgLeO3jdtYyK9gPrcIh\u002B7NZhe8I8RuQp/msJszxhlbVQ\u002BBLrKpgopquzbXBNoDLUjbGUykJykyjzup\u002BxjfuoclXv8JBJj5ZhYVhatxkIiQpu2UsVFMYWLzDyQLG8iWLY9WOYd0aRu2U0LMiKA7lEDMFwWzXj0NBMmYHOwKepCeyW8Zv216Z9kWr\u002BlwEyPLT6PRgJebjuNi51s42TQIkzGuQep44dsVXCctUwugP9yDT3rex6stwzgUiiOshRHW6xE1GuEXfnQE2vFm6wj3fIAIbTXI4k7LQdXnVwIKIuoAX87hfKUokoV13FwfR4f5FE41vQSfZuB49DnPq8cMwZXVa5hgTKcy0yg5JabdHUfaGcWveavq4c38Iubsv1kSy\u002BvFTVxekQcmIT3ua\u002BiBrugIqkGWz2Hv6tfXf8fY2g0vtsQyZu0ZaqTkpOrhbLmIuOZHlx7lM0sUnILuU3TRHmhFzsnhFr3N2DsIaUHMsXymMv\u002BAe1jisijdG7hTuopfrIdSaq85vBOqxxnzdejic1r7afGxLoWqKEJ6ItPiU31MUoXZtinmdZ8k7/wlruV/xvfZDSmz95YXyzYsZw1HjQc8LYu0oeJWZCnVEud6YrTJiRTLkF/jp\u002BxVjLHyi/JR7heUhu1KgcHdRK8xx5UZWmXm5PNqkltqkE3gIUrudxQbxe3CHFIs0Br2BCUsiiYZT00sMUnzvOUOGlVZG0dImYElchxblcu4lR/FWG4GKdfrMrs4KCghl/8quWxHWTbZAnp9IVpkV5nmta/zBj/ibukSvn28yr3e/ffjYMd\u002BEhfqwjgf7OConZyGqCRxKVfED5a3/F8A/wKUXZtBUQWfiQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-07-22T13:09:11.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
