@@ -25,5 +25,10 @@ namespace FormularioFactura
             ddlTipoDoc.Items.Add(new ListItem("Libreta", "Libreta"));
             ddlTipoDoc.Items.Add(new ListItem("Carnet Extranjero", "Carnet Extranjero"));
         }
+
+        protected void BtnGuardar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

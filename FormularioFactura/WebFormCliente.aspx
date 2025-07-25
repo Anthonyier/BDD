@@ -59,7 +59,7 @@
                  <tr>
                     <td>
                         <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" width="100px" Font-Size="X-Small" 
-                         BackColor="Aqua" Font-Bold="True" Font-Italic="False"/>
+                         BackColor="Aqua" Font-Bold="True" Font-Italic="False" OnClick="BtnGuardar_Click"/>
                     </td>
                  </tr>
         </table>  

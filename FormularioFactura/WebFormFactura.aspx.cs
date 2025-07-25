@@ -11,7 +11,20 @@ namespace FormularioFactura
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                cargarProducto();
+            }
+        }
 
+        public void cargarProducto()
+        {
+            ddlProducto.Items.Clear();
+            ddlProducto.Items.Add(new ListItem("Seleccion Producto", ""));
+            ddlProducto.Items.Add(new ListItem("Taladro bosch","1" ));
+            ddlProducto.Items.Add(new ListItem("Martillo", "2"));
+            ddlProducto.Items.Add(new ListItem("Destornillador", "3"));
+            ddlProducto.Items.Add(new ListItem("Alicate", "4"));
         }
     }
 }
