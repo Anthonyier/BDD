@@ -186,3 +186,5 @@ C:\Users\pc\source\repos\BBDPrueba1\BBDPrueba1\obj\Debug\net8.0\ref\BBDPrueba1.d
 C:\Users\pc\source\repos\BBDPrueba1\BBDPrueba1\bin\Debug\net8.0\CapaLogicaNegocioBDD.dll
 C:\Users\pc\source\repos\BBDPrueba1\BBDPrueba1\bin\Debug\net8.0\CapaLogicaNegocioBDD.pdb
 C:\Users\pc\source\repos\BBDPrueba1\BBDPrueba1\obj\Debug\net8.0\BBDPrueba1.sourcelink.json
+C:\Users\pc\source\repos\BBDPrueba1\BBDPrueba1\bin\Debug\net8.0\CapaDatos.dll
+C:\Users\pc\source\repos\BBDPrueba1\BBDPrueba1\bin\Debug\net8.0\CapaDatos.pdb

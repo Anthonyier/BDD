@@ -34,9 +34,9 @@ namespace BBDPrueba1.StepDefinitions
         public void ThenVerificamonQueLosDatosHallanSidoMetidosCorrectamente()
         {
             IWebElement elementoRequeridoCantidad = driver.FindElement(By.Id("textCantidad"));
-            int cantidadDelProducto = string.IsNullOrWhiteSpace(elementoRequeridoCantidad.Text) ? 0 : int.Parse(elementoRequeridoCantidad.Text);
+            int cantidadDelProducto = string.IsNullOrWhiteSpace(elementoRequeridoCantidad.GetAttribute("value")) ? 0 : int.Parse(elementoRequeridoCantidad.GetAttribute("value"));
             IWebElement elementoRequeridoPrecio = driver.FindElement(By.Id("txtPrecio"));
-            int precioDelProducto = string.IsNullOrWhiteSpace(elementoRequeridoPrecio.Text) ? 0 : int.Parse(elementoRequeridoPrecio.Text);
+            int precioDelProducto = string.IsNullOrWhiteSpace(elementoRequeridoPrecio.GetAttribute("value")) ? 0 : int.Parse(elementoRequeridoPrecio.GetAttribute("value"));
             IWebElement elementoDropdownListProducto = driver.FindElement(By.Id("ddlProducto"));
             SelectElement dropProducto = new SelectElement(elementoDropdownListProducto);
             string valorEscogido = dropProducto.SelectedOption.GetAttribute("value");

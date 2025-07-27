@@ -991,8 +991,20 @@
           }
         }
       },
+      "CapaDatos/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CapaDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaDatos.dll": {}
+        }
+      },
       "CapaLogicaNegocioBDD/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "CapaDatos": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CapaLogicaNegocioBDD.dll": {}
         },
@@ -2954,6 +2966,11 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "CapaDatos/1.0.0": {
+      "type": "project",
+      "path": "../CapaDatos/CapaDatos.csproj",
+      "msbuildProject": "../CapaDatos/CapaDatos.csproj"
     },
     "CapaLogicaNegocioBDD/1.0.0": {
       "type": "project",

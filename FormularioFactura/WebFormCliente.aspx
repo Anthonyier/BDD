@@ -12,6 +12,10 @@
         <div>
             <table>
                 <tr>
+                    <td style="text-align:right">Codigo</td>
+                     <td><asp:TextBox ID="txtCodigo" runat="server" Width="300px"></asp:TextBox></td>
+                </tr>
+                <tr>
 
                     <td style="text-align: right">Nombres: </td>
                     <td><asp:TextBox ID="txtNombres" runat="server" Width="300px" CssClass="upper-case" BorderStyle="Solid" BorderWidth="1px"></asp:TextBox></td>
@@ -60,6 +64,7 @@
                     <td>
                         <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" width="100px" Font-Size="X-Small" 
                          BackColor="Aqua" Font-Bold="True" Font-Italic="False" OnClick="BtnGuardar_Click"/>
+                        <asp:Label ID="Label1" runat="server" Text="Label" ForeColor="green" Visible="false">El Cliente Ha sido creado satisfactoriamente</asp:Label>
                     </td>
                  </tr>
         </table>  

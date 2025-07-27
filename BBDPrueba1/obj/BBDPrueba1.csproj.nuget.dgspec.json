@@ -106,6 +106,22 @@
         }
       }
     },
+    "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\CapaDatos\\CapaDatos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\CapaDatos\\CapaDatos.csproj",
+        "projectName": "CapaDatos",
+        "projectPath": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\CapaDatos\\CapaDatos.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\CapaLogicaNegocioBDD\\CapaLogicaNegocioBDD.csproj": {
       "restore": {
         "projectUniqueName": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\CapaLogicaNegocioBDD\\CapaLogicaNegocioBDD.csproj",
@@ -114,7 +130,11 @@
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "C:\\Users\\pc\\source\\repos\\BBDPrueba1\\CapaDatos\\CapaDatos.csproj"
+              }
+            }
           }
         }
       },

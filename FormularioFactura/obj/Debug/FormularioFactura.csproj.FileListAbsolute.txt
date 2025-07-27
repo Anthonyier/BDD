@@ -72,3 +72,7 @@ C:\Users\pc\source\repos\BBDPrueba1\FormularioFactura\obj\Debug\FormularioFactur
 C:\Users\pc\source\repos\BBDPrueba1\FormularioFactura\obj\Debug\Formular.6C675477.Up2Date
 C:\Users\pc\source\repos\BBDPrueba1\FormularioFactura\obj\Debug\FormularioFactura.dll
 C:\Users\pc\source\repos\BBDPrueba1\FormularioFactura\obj\Debug\FormularioFactura.pdb
+C:\Users\pc\source\repos\BBDPrueba1\FormularioFactura\bin\CapaLogicaNegocioBDD.dll
+C:\Users\pc\source\repos\BBDPrueba1\FormularioFactura\bin\CapaDatos.dll
+C:\Users\pc\source\repos\BBDPrueba1\FormularioFactura\bin\CapaLogicaNegocioBDD.pdb
+C:\Users\pc\source\repos\BBDPrueba1\FormularioFactura\bin\CapaDatos.pdb

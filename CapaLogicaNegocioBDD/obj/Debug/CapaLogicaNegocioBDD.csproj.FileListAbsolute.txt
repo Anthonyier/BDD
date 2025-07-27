@@ -4,3 +4,6 @@ C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\obj\Debug\CapaLogicaNeg
 C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\obj\Debug\CapaLogicaNegocioBDD.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\obj\Debug\CapaLogicaNegocioBDD.dll
 C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\obj\Debug\CapaLogicaNegocioBDD.pdb
+C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\bin\Debug\CapaDatos.dll
+C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\bin\Debug\CapaDatos.pdb
+C:\Users\pc\source\repos\BBDPrueba1\CapaLogicaNegocioBDD\obj\Debug\CapaLogi.FEAB50D7.Up2Date
