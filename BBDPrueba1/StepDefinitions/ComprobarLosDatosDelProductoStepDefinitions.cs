@@ -22,6 +22,9 @@ namespace BBDPrueba1.StepDefinitions
             driver.Navigate().GoToUrl("https://localhost:44395/WebFormFactura");
             driver.FindElement(By.Name("textCantidad")).SendKeys("4");
             driver.FindElement(By.Name("txtPrecio")).SendKeys("30");
+            IWebElement dropdown = driver.FindElement(By.Name("ddlProducto"));
+            SelectElement select = new SelectElement(dropdown);
+            select.SelectByText("Taladro bosch");
         }
 
         [When("le da click al boton agregar")]
@@ -36,13 +39,13 @@ namespace BBDPrueba1.StepDefinitions
             IWebElement elementoRequeridoCantidad = driver.FindElement(By.Id("textCantidad"));
             int cantidadDelProducto = string.IsNullOrWhiteSpace(elementoRequeridoCantidad.GetAttribute("value")) ? 0 : int.Parse(elementoRequeridoCantidad.GetAttribute("value"));
             IWebElement elementoRequeridoPrecio = driver.FindElement(By.Id("txtPrecio"));
-            int precioDelProducto = string.IsNullOrWhiteSpace(elementoRequeridoPrecio.GetAttribute("value")) ? 0 : int.Parse(elementoRequeridoPrecio.GetAttribute("value"));
+            double precioDelProducto = string.IsNullOrWhiteSpace(elementoRequeridoPrecio.GetAttribute("value")) ? 0 : int.Parse(elementoRequeridoPrecio.GetAttribute("value"));
             IWebElement elementoDropdownListProducto = driver.FindElement(By.Id("ddlProducto"));
             SelectElement dropProducto = new SelectElement(elementoDropdownListProducto);
             string valorEscogido = dropProducto.SelectedOption.GetAttribute("value");
             int codProdcuto= string.IsNullOrWhiteSpace(valorEscogido) ? 0 : int.Parse(valorEscogido);
             int verificacion = objDetalleFacturaVenta.comprobraDatosDeProducto(codProdcuto, cantidadDelProducto,precioDelProducto);
-            Assert.AreEqual(1, verificacion);
+            Assert.AreEqual(0, verificacion);
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using CapaDatos;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,5 +39,13 @@ namespace CapaLogicaNegocioBDD
             return objCliente.guardarCliente(this.codigo, this.nombre, this.ci_Nit, this.tipoDoc, this.email, this.nroTelefono);
         }
 
+        public DataTable obtenerCliente()
+        {
+            return objCliente.obtenerCliente();
+        }
+        public string buscarNombre(int Id)
+        {
+            return objCliente.encontrarNombreCliente(Id);
+        }
     }
 }

@@ -114,6 +114,15 @@ namespace FormularioFactura
         protected global::System.Web.UI.WebControls.TextBox textCantidad;
 
         /// <summary>
+        /// Control CompareValidator1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+
+        /// <summary>
         /// Control label6.
         /// </summary>
         /// <remarks>
@@ -150,6 +159,24 @@ namespace FormularioFactura
         protected global::System.Web.UI.WebControls.GridView gridViewFactura;
 
         /// <summary>
+        /// Control label7.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label label7;
+
+        /// <summary>
+        /// Control TextBoxtotal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxtotal;
+
+        /// <summary>
         /// Control BotonGuardarFacturaVenta.
         /// </summary>
         /// <remarks>
@@ -157,5 +184,14 @@ namespace FormularioFactura
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BotonGuardarFacturaVenta;
+
+        /// <summary>
+        /// Control LabelFacturaGuardar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelFacturaGuardar;
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDatos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,14 +15,14 @@ namespace CapaLogicaNegocioBDD
         public double total { get; set; }
         public NegocioFacturaVenta objFacturaVenta { get; set; }
         public NegocioProducto objProducto { get; set; }
-
+        public DatosDetalleFacturaVenta objDetalleFacturaVenta = new DatosDetalleFacturaVenta();
         public NegocioDetalleFacturaVenta()
         {
             objFacturaVenta=new NegocioFacturaVenta();
             objProducto=new NegocioProducto();
         }
 
-        public int comprobraDatosDeProducto(int codigoProdcuto, int cantidad, int precio)
+        public int comprobraDatosDeProducto(int codigoProdcuto, int cantidad, double precio)
         {
             this.precio = precio;
             this.cantidad = cantidad;
@@ -31,6 +32,16 @@ namespace CapaLogicaNegocioBDD
                 return 1;
             }
             return 0;
+        }
+
+        public double calcularTotal(double Precio, int Cantidad)
+        {
+            double totalFacturaVenta = Precio * Cantidad;
+            return totalFacturaVenta;
+        }
+        public int guardarDetalleFacturaVenta()
+        {
+            return objDetalleFacturaVenta.guardarDetalleFacturaVentas(this.cantidad, this.precio, this.total, this.objFacturaVenta.id,this.objProducto.codigo);
         }
     }
 }

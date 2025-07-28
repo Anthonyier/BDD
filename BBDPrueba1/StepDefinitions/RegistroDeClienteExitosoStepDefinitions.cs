@@ -11,7 +11,6 @@ namespace BBDPrueba1.StepDefinitions
     public class RegistroDeClienteExitosoStepDefinitions
     {
         IWebDriver driver;
-        NegocioCliente objCliente = new NegocioCliente();
         [Given("El usuario ha logrado meter los datos correctamente")]
         public void GivenElUsuarioHaLogradoMeterLosDatosCorrectamente()
         {
@@ -39,23 +38,26 @@ namespace BBDPrueba1.StepDefinitions
         [Then("el cliente se registra corectamente")]
         public void ThenElClienteSeRegistraCorectamente()
         {
-            NegocioCliente objCliente = new NegocioCliente();
-            IWebElement elementoRequeridoCodigo = driver.FindElement(By.Id("txtCodigo"));
-            objCliente.codigo = elementoRequeridoCodigo.GetAttribute("value");
-            IWebElement elementoRequeridoNombre = driver.FindElement(By.Id("txtNombres"));
-            objCliente.nombre = elementoRequeridoNombre.GetAttribute("value");
-            IWebElement elementoRequeridoCi = driver.FindElement(By.Id("txtCI"));
-            objCliente.ci_Nit = string.IsNullOrWhiteSpace(elementoRequeridoCi.GetAttribute("value")) ? 0 : int.Parse(elementoRequeridoCi.GetAttribute("value"));
-            IWebElement elementoRequeridoCorreo = driver.FindElement(By.Id("txtEmail"));
-            objCliente.email = elementoRequeridoCorreo.GetAttribute("value"); ;
-            IWebElement elementoDropdownListTipoDoc = driver.FindElement(By.Id("ddlTipoDoc"));
-            SelectElement dropTipoDoc = new SelectElement(elementoDropdownListTipoDoc);
-            objCliente.tipoDoc = dropTipoDoc.SelectedOption.GetAttribute("value");
-            IWebElement elementoRequeridoNroTelefono = driver.FindElement(By.Id("txtTelefono"));
-            objCliente.nroTelefono= string.IsNullOrWhiteSpace(elementoRequeridoNroTelefono.GetAttribute("value")) ? 0 : int.Parse(elementoRequeridoNroTelefono.GetAttribute("value"));
+            //NegocioCliente objCliente = new NegocioCliente();
+            //IWebElement elementoRequeridoCodigo = driver.FindElement(By.Id("txtCodigo"));
+            //objCliente.codigo = elementoRequeridoCodigo.GetAttribute("value");
+            //IWebElement elementoRequeridoNombre = driver.FindElement(By.Id("txtNombres"));
+            //objCliente.nombre = elementoRequeridoNombre.GetAttribute("value");
+            //IWebElement elementoRequeridoCi = driver.FindElement(By.Id("txtCI"));
+            //objCliente.ci_Nit = string.IsNullOrWhiteSpace(elementoRequeridoCi.GetAttribute("value")) ? 0 : int.Parse(elementoRequeridoCi.GetAttribute("value"));
+            //IWebElement elementoRequeridoCorreo = driver.FindElement(By.Id("txtEmail"));
+            //objCliente.email = elementoRequeridoCorreo.GetAttribute("value"); ;
+            //IWebElement elementoDropdownListTipoDoc = driver.FindElement(By.Id("ddlTipoDoc"));
+            //SelectElement dropTipoDoc = new SelectElement(elementoDropdownListTipoDoc);
+            //objCliente.tipoDoc = dropTipoDoc.SelectedOption.GetAttribute("value");
+            //IWebElement elementoRequeridoNroTelefono = driver.FindElement(By.Id("txtTelefono"));
+            //objCliente.nroTelefono= string.IsNullOrWhiteSpace(elementoRequeridoNroTelefono.GetAttribute("value")) ? 0 : int.Parse(elementoRequeridoNroTelefono.GetAttribute("value"));
 
-            int resultado = objCliente.guardarCliente();
-            Assert.AreEqual(1, resultado);
+            //int resultado = objCliente.guardarCliente();
+            //Assert.AreEqual(1, resultado);
+
+            IWebElement label = driver.FindElement(By.Id("LabelGuardar"));
+            Assert.IsTrue(label.Displayed, "No se Pudo Insertar el Cliente.");
         }
     }
 }

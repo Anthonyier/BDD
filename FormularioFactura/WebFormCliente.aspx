@@ -42,7 +42,7 @@
                 
                 <tr>
                     <td style="text-align: right">Teléfono: </td>
-                    <td><asp:TextBox ID="txtTelefono" runat="server" Width="300px" onkeydown = "return (!(event.keyCode>=65) && event.keyCode!=32);" BorderStyle="Solid" BorderWidth="1px" ></asp:TextBox></td>
+                    <td><asp:TextBox ID="txtTelefono" runat="server" Width="300px" onkeydown = "return (!(event.keyCode>=65) && event.keyCode!=32);" BorderStyle="Solid" BorderWidth="1px" >0</asp:TextBox></td>
                 </tr>
                
                  <tr>
@@ -64,8 +64,9 @@
                     <td>
                         <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" width="100px" Font-Size="X-Small" 
                          BackColor="Aqua" Font-Bold="True" Font-Italic="False" OnClick="BtnGuardar_Click"/>
-                        <asp:Label ID="Label1" runat="server" Text="Label" ForeColor="green" Visible="false">El Cliente Ha sido creado satisfactoriamente</asp:Label>
+                        <asp:Label ID="LabelGuardar" runat="server" Text="Label" ForeColor="green" Visible="false">El Cliente Ha sido creado satisfactoriamente</asp:Label>
                     </td>
+                    
                  </tr>
         </table>  
         </div>

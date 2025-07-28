@@ -6,6 +6,11 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 250px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -19,7 +24,7 @@
                         <asp:Label ID="label1" runat="server" >Codigo Cliente:</asp:Label>
                     </td>
                     <td>
-                        <asp:DropDownList ID="ddlClienteCodigo" runat="server"></asp:DropDownList>
+                        <asp:DropDownList ID="ddlClienteCodigo" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlClienteCodigo_SelectedIndexChanged"></asp:DropDownList>
                     </td>
                 </tr>
                 <tr>
@@ -46,7 +51,7 @@
                        <asp:Label ID="label4" runat="server">Producto</asp:Label>
                     </td>
                     <td>
-                        <asp:DropDownList ID="ddlProducto" runat="server"></asp:DropDownList>
+                        <asp:DropDownList ID="ddlProducto" runat="server" AutoPostBack="true"></asp:DropDownList>
                     </td>
                 </tr>
                 <tr>
@@ -56,6 +61,11 @@
                     <td>
                         <asp:TextBox ID="textCantidad" runat="server"></asp:TextBox>
                     </td>
+                    <td >
+                        <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToValidate="textCantidad" Display="Dynamic" 
+                        ErrorMessage="Cantidad debe ser un numero" ForeColor="Red" Operator="DataTypeCheck" 
+                        Type="Integer">Cantidad debe ser un numero</asp:CompareValidator>
+                       </td>
                 </tr>
                 <tr>
                     <td>
@@ -67,13 +77,13 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="btnAgregar" runat="server" Text="Agregar" />
+                        <asp:Button ID="btnAgregar" runat="server" Text="Agregar" OnClick="btnAgregar_Click" />
                     </td>
                 </tr>
             </table>
             <table>
                 <tr>
-                    <td>
+                    <td class="auto-style1">
                         <asp:GridView ID="gridViewFactura" runat="server" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4">
                             <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
                             <HeaderStyle BackColor="#003399" Font-Bold="True" ForeColor="#CCCCFF" />
@@ -88,11 +98,26 @@
                     </td>
                 </tr>
             </table>
+            <table>
+                <tr>
+
+                 <td>
+                <asp:Label ID="label7" runat="server">total</asp:Label>
+                </td>
+                <td>
+                <asp:TextBox ID="TextBoxtotal" runat="server">0</asp:TextBox>
+                </td>
+                   </tr>
+            </table>
           <table>
               <tr>
                   <td>
-                      <asp:Button ID="BotonGuardarFacturaVenta" text="Guardar" runat="server"  />
+                      <asp:Button ID="BotonGuardarFacturaVenta" text="Guardar" runat="server" OnClick="BotonGuardarFacturaVenta_Click"/>
+                      
                   </td>
+                 <td>
+                     <asp:Label ID="LabelFacturaGuardar" runat="server" Text="label" ForeColor="Green" Visible="false">Se Creo la factura</asp:Label>
+                 </td>
               </tr>
           </table>  
         </div>

@@ -44,7 +44,7 @@ namespace FormularioFactura
             {
                 if (cliente.guardarCliente() == 1)
                 {
-                    Label1.Visible = true;
+                    LabelGuardar.Visible = true;
                 }
             }
         }

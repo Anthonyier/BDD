@@ -17,7 +17,14 @@ namespace BBDPrueba1.StepDefinitions
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://localhost:44395/WebFormCliente");
-            driver.FindElement(By.Name("txtEmail")).SendKeys("54sasasl.com");
+            driver.FindElement(By.Name("txtEmail")).SendKeys("pedritogmail.com");
+            driver.FindElement(By.Name("txtCodigo")).SendKeys("4755Sc");
+            driver.FindElement(By.Name("txtCI")).SendKeys("7482322");
+            driver.FindElement(By.Name("txtNombres")).SendKeys("Alberto Obregon");
+
+            IWebElement dropdown = driver.FindElement(By.Name("ddlTipoDoc"));
+            SelectElement select = new SelectElement(dropdown);
+            select.SelectByText("Pasaporte");
         }
 
         [When("le de click en el boton Guardar")]

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDatos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace CapaLogicaNegocioBDD
         public double total { get; set; }
         public string condicionDePago { get; set; }
          public NegocioCliente objCliente { get;set; }
+        public DatosFacturaVentas objFacturaVentas = new DatosFacturaVentas();
 
         public NegocioFacturaVenta() 
         { 
@@ -28,6 +30,16 @@ namespace CapaLogicaNegocioBDD
                 return 1;
             }
             return 0;
+        }
+
+        public int guardarFacturaVentas()
+        {
+            return objFacturaVentas.guardarFacturaVentas(this.id,this.total, this.condicionDePago,this.objCliente.id);
+        }
+
+        public int encontraMaximoFacturaVentaId()
+        {
+            return objFacturaVentas.encontrarIdFacturaVentaMaximo();
         }
     }
 }

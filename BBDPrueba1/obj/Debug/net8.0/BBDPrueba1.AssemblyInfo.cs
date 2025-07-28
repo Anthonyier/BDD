@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BBDPrueba1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e543ab057249ed48cdbf637e803c1732b4087c3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b29c6b04f6ef6b9791cccad7cb72cb164b691800")]
 [assembly: System.Reflection.AssemblyProductAttribute("BBDPrueba1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BBDPrueba1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

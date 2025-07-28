@@ -44,6 +44,8 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DatosCliente.cs" />
     <Compile Include="DatosConexion.cs" />
+    <Compile Include="DatosDetalleFacturaVenta.cs" />
+    <Compile Include="DatosFacturaVentas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
